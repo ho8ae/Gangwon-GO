@@ -1,0 +1,32 @@
+/* Banner.css */
+
+.text-animation-enter {
+    opacity: 0;
+  }
+  
+  .text-animation-enter-active {
+    opacity: 1;
+    transition: opacity 300ms ease-in-out;
+  }
+  
+  .text-animation-exit {
+    opacity: 1;
+  }
+  
+  .text-animation-exit-active {
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+  }  
