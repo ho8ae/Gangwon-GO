@@ -16,7 +16,7 @@ import { HashRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <HashRouter>
+    <Router>
       <Helmet>
 
 
@@ -54,7 +54,7 @@ function App() {
 
       </Routes>
 
-    </HashRouter>
+    </Router>
   );
 }
 
