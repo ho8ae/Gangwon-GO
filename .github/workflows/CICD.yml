@@ -23,7 +23,7 @@ jobs:
       run: npm install
 
     - name: Verify installation
-      run: npm ci='false'
+      run: npm ci
 
     - name: Build project
       run: npm run build
@@ -32,8 +32,8 @@ jobs:
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        AWS_REGION: 'us-east-1' # Adjust the region as needed
-        S3_BUCKET: 'your-bucket-name'
+        AWS_REGION: 'ap-northeast-2' # Adjust the region as needed
+        S3_BUCKET: 'newbuketkim'
       run: |
         npm install -g aws-cli
         aws s3 sync build/ s3://$S3_BUCKET --delete
