@@ -5,13 +5,13 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { Helmet } from 'react-helmet';
 import Intro from './components/Intro/Intro';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import Introduce from './components/Introduce/Introduce';
 import Main from './components/Main/Main';
-
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import AnimalTest from './components/AnimalTest/Test';
 import AnimalHome from './components/AnimalHome/Home';
-import { HashRouter } from 'react-router-dom';
+
 //import { BrowserRouter } from 'react-router-dom';
 
 function App() {
@@ -47,11 +47,8 @@ function App() {
         <Route path="/" element={<Intro />} />
         <Route path="/introduce" element={<Introduce />} />
         <Route path="/main" element={<Main />} />
-
         <Route path="/test" element={<AnimalTest />} />
         <Route path="/home" element={<AnimalHome />} />
-
-
       </Routes>
 
     </Router>
