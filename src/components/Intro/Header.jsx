@@ -14,7 +14,7 @@ const Header = () => {
                     <div className="col-lg-6">
                         <div className="mb-5 mb-lg-0 text-center text-lg-start">
                             <h1 className="display-1 lh-1 mb-3 introduce-container ">
-                                강원도에는 어떤 동물이?! <br /> Gangwon-GO!
+                                함경북도에는 어떤 동물이?! <br /> Gangwon-GO!
                             </h1>
                             <p className="lead fw-normal text-muted mb-5">
                                 강원도에는 무슨 동물들이 있을까요?<br />확인하러 가보죠!
