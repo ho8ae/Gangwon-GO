@@ -11,7 +11,7 @@ import Main from './components/Main/Main';
 
 import AnimalTest from './components/AnimalTest/Test';
 import AnimalHome from './components/AnimalHome/Home';
-import { BrowserRouter } from 'react-router-dom';
+//import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
