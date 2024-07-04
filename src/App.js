@@ -45,10 +45,10 @@ function App() {
       </Helmet>
       <Routes>
         <Route path="/" element={<Intro />} />
-        <Route path="/#/introduce" element={<Introduce />} />
-        <Route path="/#/main" element={<Main />} />
-        <Route path="/#/test" element={<AnimalTest />} />
-        <Route path="/#/home" element={<AnimalHome />} />
+        <Route path="/introduce" element={<Introduce />} />
+        <Route path="/main" element={<Main />} />
+        <Route path="/test" element={<AnimalTest />} />
+        <Route path="/home" element={<AnimalHome />} />
       </Routes>
 
     </Router>
